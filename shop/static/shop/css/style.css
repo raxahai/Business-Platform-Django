@@ -1,0 +1,36 @@
+.col-md-3 {
+  display: inline-block;
+  margin-left: -4px;
+}
+.carousel-indicators .active {
+  background-color: blue;
+}
+.col-md-3 img {
+  max-width: 307px;
+  height: 242px;
+  /* max-height: 242px; */
+  /* height: auto; */
+}
+body .carousel-indicator li {
+  background-color: blue;
+}
+/* body .carousel-indicators {
+  bottom: 0;
+} */
+body .carousel-control-prev-icon,
+body .carousel-control-next-icon {
+  background-color: transparent;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  padding-top: 190px;
+  top: auto;
+  bottom: auto;
+}
+.carousel-control-next {
+  padding-left: 20px;
+}
+body .no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
